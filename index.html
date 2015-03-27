@@ -10,10 +10,49 @@
   <body>
 <h1>Welcome to Jons Profilio</h1>
 
-<h2>test</h2>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Learn Node in 3 simple steps days</title>
+  {% load staticfiles %}
+  <link rel="stylesheet" href="{% static 'css/foundation.css' %}" >
 
-<h3>abcsdasdfasd
-</h3>
+</head>
+<body>
+<div class="fixed">
+
+<nav class="top-bar" data-topbar role="navigation">
+<div class="small-8 small-centered columns">
+  <ul class="title-area">
+    <li class="name">
+      <a href="/"><h1 id="name">Node.JS</h1></a>
+    </li>
+  </ul>
+ 
+ <nav>
+ <section class="top-bar-section">
+  <ul class="right ">
+{% if usernameEmail  %}
+<li><a href="">{{usernameEmail}}</a></li>
+<li><a href="/logout">log Out</a></li>
+{%else%}
+<li><a href="/addUser">Login</a></li>
+<li><a href="/register">Sign Up</a></li>
+{% endif %}
+
+
+
+        </ul> 
+      </section>
+    </nav>
+    </div> 
+  </nav> <!-- End Nav -->
+</div>
+<br>  
+<br>
+<br>
+
 
 
     
