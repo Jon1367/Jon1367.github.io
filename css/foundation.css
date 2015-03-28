@@ -1717,7 +1717,7 @@ meta.foundation-mq-topbar {
   height: 2.8125rem;
   line-height: 2.8125rem;
   position: relative;
-  background: #333333;
+  background: #7CCD7C;
   margin-bottom: 0; }
   .top-bar ul {
     margin-bottom: 0;
@@ -6199,3 +6199,80 @@ th.hide-for-touch {
 
   th.show-for-print {
     display: table-cell !important; } }
+
+body{
+
+  background-color: #CDC9C9!important;
+
+}
+img[src="img/mypic.jpg"]{
+
+  border-radius:5px;
+}
+#skills{
+
+  display:inline-block;
+}
+.links{
+  
+}
+
+    /* My Css */
+    .marginOne{
+
+      margin-left:20px !important;
+
+    }
+    .marginTwo{
+
+      margin-left:40px !important;
+    }
+    #name{
+
+      margin-left:10px;
+      color:white;
+    }
+    #welcome{
+
+      text-align: center;
+    }
+    #info{
+      
+    }
+    ul > li > a:hover{
+      color:#80BD01 !important;
+    }
+    a:hover{
+      color:#80BD01 !important;      
+    }
+    body{
+      background-color: #EEE9E9 !important;
+    }
+    aside > ul > li{
+
+      display: inline-block;
+      float:left;
+      clear:both;
+    }
+    div[id="urls"] > li{
+
+      text-decoration: underline;
+      text-indent:80px;
+    }
+    div[class="small-8 large-centered columns"] > h1{
+      text-align:center;
+    }
+    div[class="small-10 large-centered columns"] > h2{
+        text-align:center;
+    }
+    div[class="small-12 large-centered columns"] > h3{
+
+      text-align: center;
+    }
+
+
+
+
+
+
+
