@@ -14,7 +14,7 @@ body {
 }
 
 .text-primary {
-    color: #fed136;
+    color: #93D5FF;
 }
 
 p {
@@ -69,12 +69,12 @@ h6 {
 }
 
 .btn-primary {
-    border-color: #fed136;
+    border-color: #93D5FF;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     color: #fff;
-    background-color: #fed136;
+    background-color:#93D5FF;
 }
 
 .btn-primary:hover,
@@ -261,7 +261,7 @@ fieldset[disabled] .btn-xl.active {
 
     .navbar-default.navbar-shrink .navbar-brand {
         font-size: 1.5em;
-        color:#93D5FF;;
+        color:#93D5FF;
     }
     .navbar-default.navbar-shrink  .nav li a {
     text-transform: uppercase;
